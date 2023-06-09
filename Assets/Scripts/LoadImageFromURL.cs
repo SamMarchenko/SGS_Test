@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class LoadImageFromURL : MonoBehaviour
@@ -36,13 +37,13 @@ public class LoadImageFromURL : MonoBehaviour
 
     private IEnumerator LoadImage()
     {
-        var www = new WWW(_urlPath);
+        var request = UnityWebRequestTexture.GetTexture(_urlPath);
 
-        yield return www;
+        yield return request.SendWebRequest();
 
-        if (www.error == null)
+        if (request.result == UnityWebRequest.Result.Success)
         {
-            Image.texture = www.texture;
+            Image.texture = DownloadHandlerTexture.GetContent(request);
             _isLoaded = true;
         }
         else
