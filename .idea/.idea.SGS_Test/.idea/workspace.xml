@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47922aa6-e2ed-4f18-931d-cff6078cea48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadImageFromURL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadImageFromURL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686324339168</updated>
       <workItem from="1686324339171" duration="59000" />
-      <workItem from="1686328107031" duration="4689000" />
+      <workItem from="1686328107031" duration="5655000" />
     </task>
     <servers />
   </component>
@@ -83,5 +83,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/LoadImageFromURL.cs</url>
+          <line>22</line>
+          <properties documentPath="C:\SSDRepo\SGS_Test\Assets\Scripts\LoadImageFromURL.cs" initialLine="22" containingFunctionPresentation="method 'LoadViewScene'">
+            <startOffsets>
+              <option value="455" />
+            </startOffsets>
+            <endOffsets>
+              <option value="456" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
