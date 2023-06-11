@@ -1,12 +1,14 @@
-﻿using Zenject;
+﻿using StateMachine;
+using States;
+using Zenject;
 
-namespace Logic
+namespace Services
 {
-    public class GalleryManager : IInitializable
+    public class GallerySceneInitService : IInitializable
     {
         private MainStateMachine _stateMachine;
         
-        public GalleryManager(MainStateMachine stateMachine)
+        public GallerySceneInitService(MainStateMachine stateMachine)
         {
             _stateMachine = stateMachine;
         }

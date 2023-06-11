@@ -1,6 +1,10 @@
 ﻿using System.Collections.Generic;
+using Factories;
+using Services;
+using StateMachine;
+using UI;
 
-namespace Logic
+namespace States
 {
     public class SetImagesURLState : IState
     {
@@ -21,7 +25,7 @@ namespace Logic
         public void Enter()
         {
             var urls = _urlService.SetURl(_uiFactory.ImageCells);
-            _stateMachine.Enter<DownloadAndOpenImagesState, Dictionary<ImageCellView, string>>(urls);
+            _stateMachine.Enter<DownloadAndOpenImagesState, Dictionary<CellView, string>>(urls);
         }
 
         public void Exit()

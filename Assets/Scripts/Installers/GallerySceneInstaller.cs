@@ -1,4 +1,8 @@
-using Logic;
+using Factories;
+using Services;
+using StateMachine;
+using States;
+using UI;
 using UnityEngine;
 using Zenject;
 
@@ -6,11 +10,11 @@ namespace Installers
 {
     public class GallerySceneInstaller : MonoInstaller
     {
-        [SerializeField] private ImageCellView _imageCellPrefab;
+        [SerializeField] private CellView cellPrefab;
 
         public override void InstallBindings()
         {
-            Container.BindInstance(_imageCellPrefab);
+            Container.BindInstance(cellPrefab);
 
             Container.BindInterfacesAndSelfTo<URLService>().AsSingle().NonLazy();
 
@@ -22,7 +26,7 @@ namespace Installers
             Container.BindInterfacesAndSelfTo<DownloadAndOpenImagesState>().AsSingle().NonLazy();
             
             Container.BindInterfacesAndSelfTo<MainStateMachine>().AsSingle().NonLazy();
-            Container.BindInterfacesAndSelfTo<GalleryManager>().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<GallerySceneInitService>().AsSingle().NonLazy();
         }
     }
 }

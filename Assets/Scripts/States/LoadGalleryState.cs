@@ -1,4 +1,7 @@
-﻿namespace Logic
+﻿using Factories;
+using StateMachine;
+
+namespace States
 {
     public class LoadGalleryState : IState
     {

@@ -1,4 +1,6 @@
-﻿namespace Logic
+﻿using States;
+
+namespace StateMachine
 {
     public interface IStateMachine
     {

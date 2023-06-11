@@ -2,443 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47922aa6-e2ed-4f18-931d-cff6078cea48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Factories/UIFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/States/DownloadAndOpenImagesState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/GalleryConfig.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/GalleryConfig.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/ChangeLog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/ChangeLog.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/01.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/01.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/SimpleDemo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/01 Simple Demo/SimpleDemo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/02.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/02.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewFooter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewFooter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewFooter.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewFooter.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewHeader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewHeader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewHeader.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewHeader.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewRow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewRow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewRow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/CellViewRow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/MultipleCellTypesDemo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/02 Multiple Cell Types/MultipleCellTypesDemo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/03.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/03.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/InventoryCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/InventoryCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/InventoryData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/InventoryData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/SelectionDemo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/SelectionDemo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/hInventoryCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/hInventoryCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/vInventoryCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/03 Selection Demo/vInventoryCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/04.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/04.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/04 Jump To Demo/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/05.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/05.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/ImageList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/05 Remote Resources/ImageList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/06.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/06.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/PlayWin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/PlayWin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SlotData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/Slots Scroller.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/Slots Scroller.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SnappingDemo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/06 Snapping/SnappingDemo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/07.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/07.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/07 Refreshing/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/08.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/08.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/08 View Driven Cell Sizes/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/09.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/09.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/09 Cell Events/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/10.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/10.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/RowCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10 Grid Simulation/RowCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/10b.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/10b.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/RowCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/10b Grid Selection/RowCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/11.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/11.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/11 Pull Down Refresh/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/12.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/12.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/DetailCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/DetailCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/DetailCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/DetailCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/DetailData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/DetailData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/MasterCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/MasterCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/MasterCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/MasterCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/MasterData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/MasterData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/ScrollRectEx.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12 Nested Scrollers/ScrollRectEx.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/12b.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/12b.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/DetailCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/DetailCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/DetailCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/DetailCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/DetailData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/DetailData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/MasterCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/MasterCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/MasterCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/MasterCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/MasterData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/MasterData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/ScrollRectEx.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/12b Nested Linked Scrollers (Alternate Grid)/ScrollRectEx.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/13.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/13.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/LoadingCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/LoadingCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/LoadingCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/13 Pagination/LoadingCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/14.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/14.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14 Key Control/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/14b.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/14b.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/RowCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/14b Key Control Grid/RowCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/15.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/15.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/CellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/CellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/15 Expanding Cells/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/16.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/16.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/Chat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/Chat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/MyTextCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/MyTextCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/OtherTextCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/OtherTextCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/SpacerCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/16 Chat/SpacerCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/17.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/17.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/CellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/CellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/DemoController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/DemoController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/FlickSnap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/FlickSnap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/FlickSnapCellView.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/17 FlickSnap/FlickSnapCellView.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Main Menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Main Menu/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Main Menu/MainMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Main Menu/MainMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Main Menu/MainMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Main Menu/ReturnToMainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Main Menu/ReturnToMainMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Fonts/IMMORTAL.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Fonts/IMMORTAL.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Fonts/Infinium Guardian.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Fonts/Infinium Guardian.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Multiple Cell Type Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Multiple Cell Type Demo/avatar_female.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Multiple Cell Type Demo/avatar_female.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Multiple Cell Type Demo/avatar_male.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Multiple Cell Type Demo/avatar_male.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/amulet_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/amulet_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/amulet_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/amulet_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/boots_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/boots_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/boots_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/boots_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/bracers_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/bracers_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/bracers_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/bracers_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/crossbow_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/crossbow_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/crossbow_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/crossbow_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/fireRing_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/fireRing_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/fireRing_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/fireRing_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/helmet_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/helmet_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/helmet_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/helmet_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/knapsack_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/knapsack_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/knapsack_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/knapsack_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/shield_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/shield_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/shield_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/shield_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/sword_h.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/sword_h.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/sword_v.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Resources/Selection Demo/sword_v.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Return to Main Menu Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Return to Main Menu Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/border.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/border.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/border_small.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/border_small.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/coin.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/coin.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/damage.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/damage.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/defense.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/defense.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/footer.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/footer.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/halo.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/halo.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/header.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/header.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/jumpoffset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/jumpoffset.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/loading.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/loading.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/menuHeader.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/menuHeader.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/row.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/row.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/scifiBorder.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/scifiBorder.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/scroll.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/scroll.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_banana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_banana.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_bigwin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_bigwin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_blank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_blank.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_cherry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_cherry.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_grape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_grape.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_lemon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_lemon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_orange.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_triplebar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_triplebar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_watermelon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slots_watermelon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slotsbackground.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slotsbackground.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slotsborder.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slotsborder.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slotsoverlay.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/slotsoverlay.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/stripe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/stripe.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/weight.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/weight.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/winner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Demos/Shared Files/Sprites/winner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Documentation/EnhancedScroller_User_Manual.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Documentation/EnhancedScroller_User_Manual.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/EnhancedScroller.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/EnhancedScroller.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/EnhancedScroller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/EnhancedScroller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/EnhancedScrollerCellView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/EnhancedScrollerCellView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/IEnhancedScrollerDelegate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/IEnhancedScrollerDelegate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/SmallList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/SmallList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/Tween.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Plugins/Tween.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Tutorials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Tutorials/01 - Quick Start Tutorial.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Tutorials/01 - Quick Start Tutorial.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Tutorials/01 - Quick Start Tutorial.unitypackage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Tutorials/01 - Quick Start Tutorial.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Tutorials/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/Tutorials/readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/upgrading from 1.x to 2.x.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnhancedScroller v2/upgrading from 1.x to 2.x.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/RawImage_button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/RawImage_button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GalleryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GalleryScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GalleryConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GalleryData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GalleryConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GalleryData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadImageFromURL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ImageCellView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadImageFromURL.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ImageCellView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/GalleryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Logic/GalleryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/ISceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Logic/ISceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ImageCellView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CellView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ImageCellView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CellView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/GallerySceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/GallerySceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/SOInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/SOInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/DownloadAndOpenImagesState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/DownloadAndOpenImagesState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/DownloadAndOpenImagesState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/GalleryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/GallerySceneInitService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/GalleryManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/GallerySceneInitService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IInitExitableState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/IInitExitableState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IInitExitableState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/IInitExitableState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IPayLoadedState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/IPayLoadedState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IPayLoadedState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/IPayLoadedState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/ISceneLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/ISceneLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/IState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/IState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/IStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/IStateMachine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/IStateMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/LoadGalleryState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadGalleryState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/LoadGalleryState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadGalleryState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/LoadViewSceneState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadViewSceneState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/LoadViewSceneState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadViewSceneState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/MainStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/MainStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/MainStateMachine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/MainStateMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/SetImagesURLState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/SetImagesURLState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/SetImagesURLState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/SetImagesURLState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/URLService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/URLService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Logic/URLService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/URLService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Factories/UIFactory.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -455,8 +58,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88d854ea2c91426ebc464f01cd71aa85157a00/4e/111ac12b/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f943b0b325ed4b2da7ce9a10682503ee15200/a4/2d53991b/IState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/9a/181f8563/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88d854ea2c91426ebc464f01cd71aa85157a00/b9/3696ef7e/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Work_RoyalAxe/RoyalAxe/Assets/Scripts/RoyalEntity/LocalSystems/DamagePopupSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -474,6 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.7099567" />
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -511,6 +118,7 @@
       <workItem from="1686328107031" duration="5655000" />
       <workItem from="1686394254812" duration="10104000" />
       <workItem from="1686482602705" duration="2824000" />
+      <workItem from="1686517991758" duration="407000" />
     </task>
     <servers />
   </component>

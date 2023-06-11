@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace Logic
+﻿namespace States
 {
     public interface IPayLoadedState<TPayLoad> : IInitExitableState
     {

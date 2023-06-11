@@ -1,4 +1,6 @@
-﻿namespace Logic
+﻿using StateMachine;
+
+namespace States
 {
     public interface IInitExitableState
     {

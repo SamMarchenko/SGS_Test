@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using States;
+using Zenject;
 
-namespace Logic
+namespace StateMachine
 {
-    public class MainStateMachine : IStateMachine
+    public class MainStateMachine : IStateMachine, ITickable
     {
         private Dictionary<Type, IInitExitableState> _states = new Dictionary<Type, IInitExitableState>();
         private IInitExitableState _activeState;
@@ -33,6 +35,7 @@ namespace Logic
             TState state = ChangeState<TState>();
             state.Enter(payload);
         }
+        
 
         private TState ChangeState<TState>() where TState : class, IInitExitableState
         {
@@ -44,5 +47,14 @@ namespace Logic
 
         private TState GetState<TState>() where TState : class, IInitExitableState =>
             _states[typeof(TState)] as TState;
+
+        public void Tick()
+        {
+            if (_activeState is IUpdatableState)
+            {
+                var state = _activeState as IUpdatableState;
+                state.Update();
+            }
+        }
     }
 }

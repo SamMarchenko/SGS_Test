@@ -1,7 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using StateMachine;
 using UnityEngine;
 
-namespace Logic
+namespace States
 {
     public class LoadViewSceneState : IPayLoadedState<Texture>
     {

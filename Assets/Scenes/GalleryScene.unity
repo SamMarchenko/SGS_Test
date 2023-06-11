@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a7772d9b8a5e44e94460070a6b03f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _imageCellPrefab: {fileID: 8580504085995981274, guid: 186e81a0904d8fa4b8a666bdf0b4582e, type: 3}
+  cellPrefab: {fileID: 8580504085995981274, guid: 186e81a0904d8fa4b8a666bdf0b4582e, type: 3}
 --- !u!114 &62023155
 MonoBehaviour:
   m_ObjectHideFlags: 0

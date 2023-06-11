@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1e61105a1e31a941850eebefea9c1e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiElement: {fileID: 8331492902446184052}
+  _rectTransform: {fileID: 8331492902446184052}
   Image: {fileID: 7796029728880076557}
   Button: {fileID: 8499763362460855522}
 --- !u!1 &7796029728880076555

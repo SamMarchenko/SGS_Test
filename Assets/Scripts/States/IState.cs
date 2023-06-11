@@ -1,4 +1,4 @@
-﻿namespace Logic
+﻿namespace States
 {
     public interface IState : IInitExitableState
     {

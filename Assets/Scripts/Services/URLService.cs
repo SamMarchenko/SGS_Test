@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using Data;
+using UI;
 
-namespace Logic
+namespace Services
 {
     public class URLService
     {
@@ -12,9 +13,9 @@ namespace Logic
             _data = data;
         }
 
-        public Dictionary<ImageCellView, string> SetURl(List<ImageCellView> imageCells)
+        public Dictionary<CellView, string> SetURl(List<CellView> imageCells)
         {
-            var cellsUrls = new Dictionary<ImageCellView, string>();
+            var cellsUrls = new Dictionary<CellView, string>();
         
             for (int i = 0; i < imageCells.Count; i++) 
                 cellsUrls.Add(imageCells[i], _data.GalleryURL + $"{i + 1}.jpg");
