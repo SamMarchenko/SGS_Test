@@ -1,9 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-public class LoadImageFromURL : MonoBehaviour
+public class ImageCellView : MonoBehaviour
 {
     private string _urlPath;
     private Coroutine _loadRoutine;
@@ -12,32 +13,15 @@ public class LoadImageFromURL : MonoBehaviour
 
     public RawImage Image;
     public Button Button;
-
-    public void Init(string path)
-    {
-        _urlPath = path;
-        Button.onClick.AddListener(LoadViewScene);
-    }
-
-    private void LoadViewScene()
-    {
-        if (_isLoaded)
-            Debug.Log("Загружаю View сцену");
-    }
     
-    private void Update()
-    {
-        if (_loadRoutine != null)
-            return;
-        Load();
-    }
+    public bool IsLoaded => _isLoaded;
 
-    private void Load() =>
-        _loadRoutine = StartCoroutine(LoadImage());
+    public void LoadImage(string path) =>
+        _loadRoutine = StartCoroutine(Load(path));
 
-    private IEnumerator LoadImage()
+    private IEnumerator Load(string path)
     {
-        var request = UnityWebRequestTexture.GetTexture(_urlPath);
+        var request = UnityWebRequestTexture.GetTexture(path);
 
         yield return request.SendWebRequest();
 
@@ -52,5 +36,10 @@ public class LoadImageFromURL : MonoBehaviour
             _loadRoutine = null;
             _isLoaded = false;
         }
+    }
+
+    public void AddCallBack(UnityAction action)
+    {
+        Button.onClick.AddListener(action);
     }
 }

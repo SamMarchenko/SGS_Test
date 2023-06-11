@@ -3,7 +3,7 @@
 namespace Data
 {
     [CreateAssetMenu(menuName = "Configs/GalleryConfig", fileName = "NewGalleryConfig")]
-    public class GalleryConfig : ScriptableObject
+    public class GalleryData : ScriptableObject
     {
         [SerializeField] private string _galleryURL;
         [SerializeField] private int _imagesCount;

@@ -1,5 +1,4 @@
-﻿using Logic;
-using UnityEngine.UI;
+﻿using UnityEngine.UI;
 
 namespace Logic
 {
@@ -8,17 +7,17 @@ namespace Logic
         public void Load(string URL, int imagesCount);
         public void Load(RawImage image);
     }
-}
 
-public class SceneLoader : ISceneLoader
-{
-    public void Load(string URL, int imagesCount)
+    public class SceneLoader : ISceneLoader
     {
+        public void Load(string URL, int imagesCount)
+        {
         
-    }
+        }
 
-    public void Load(RawImage image)
-    {
+        public void Load(RawImage image)
+        {
         
+        }
     }
 }
