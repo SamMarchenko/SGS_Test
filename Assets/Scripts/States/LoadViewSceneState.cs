@@ -1,9 +1,9 @@
-﻿using StateMachine;
-using UnityEngine;
+﻿using Services;
+using StateMachine;
 
 namespace States
 {
-    public class LoadViewSceneState : IPayLoadedState<Texture>
+    public class LoadViewSceneState : IState
     {
         private IStateMachine _stateMachine;
 
@@ -12,14 +12,12 @@ namespace States
             _stateMachine = stateMachine;
         }
 
-        public void Enter(Texture payLoad)
-        {
-            Debug.Log("Загружаю сцену вьюхи картинки");
-        }
+        public void Enter() => 
+            SceneLoadService.SwitchToScene("ViewScene");
+
 
         public void Exit()
         {
-            
         }
     }
 }

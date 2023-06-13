@@ -46,9 +46,7 @@ namespace UI
             }
         }
 
-        public void AddCallBack(UnityAction action)
-        {
+        public void AddCallBack(UnityAction action) => 
             Button.onClick.AddListener(action);
-        }
     }
 }

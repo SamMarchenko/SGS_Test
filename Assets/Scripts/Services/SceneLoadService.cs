@@ -25,6 +25,14 @@ namespace Services
             s_instance._loadingSceneOperation = SceneManager.LoadSceneAsync(sceneName);
             s_instance._loadingSceneOperation.allowSceneActivation = false;
         }
+        
+        public static void SwitchToScene(int sceneIndex)
+        {
+            s_instance._animator.SetTrigger("sceneClosing");
+
+            s_instance._loadingSceneOperation = SceneManager.LoadSceneAsync(sceneIndex);
+            s_instance._loadingSceneOperation.allowSceneActivation = false;
+        }
 
         private void Start()
         {

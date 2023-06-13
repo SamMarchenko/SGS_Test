@@ -153,7 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a7772d9b8a5e44e94460070a6b03f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellPrefab: {fileID: 8580504085995981274, guid: 186e81a0904d8fa4b8a666bdf0b4582e, type: 3}
 --- !u!114 &62023155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,8 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scriptableObjectInstallers:
-  - {fileID: 11400000, guid: c71f02f5aefac814b8c2a7b79019d3d0, type: 2}
+  _scriptableObjectInstallers: []
   _monoInstallers:
   - {fileID: 62023154}
   _installerPrefabs: []

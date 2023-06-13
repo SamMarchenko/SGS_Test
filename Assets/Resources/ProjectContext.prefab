@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4e6589720da476459dc6dd71624b071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scriptableObjectInstallers: []
+  _scriptableObjectInstallers:
+  - {fileID: 11400000, guid: c71f02f5aefac814b8c2a7b79019d3d0, type: 2}
   _monoInstallers:
   - {fileID: -3240767464091202932}
   _installerPrefabs: []
@@ -75,5 +76,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hudPrefab: {fileID: -3307748166492889762, guid: f6676178a4f99014fb03b12d87559c3b, type: 3}
-  _loadingCurtainPrefab: {fileID: 6676621349083578377, guid: 780e9074f10a65841854a2d48efcf8d3, type: 3}
-  _sceneLoaderPrefab: {fileID: 2881779028754715432, guid: 617abb6c14ee07248b7ae1dbe97f1d32, type: 3}
+  _galleryPrefab: {fileID: 2700753725077731767, guid: 98c0fffaa1085b747adbfa1c085bfd89, type: 3}
+  _cellViewPrefab: {fileID: 8580504085995981274, guid: 186e81a0904d8fa4b8a666bdf0b4582e, type: 3}
+  _imageViewPrefab: {fileID: 2018364864650445992, guid: eb46055e996deca48b01b86f2c5a5248, type: 3}

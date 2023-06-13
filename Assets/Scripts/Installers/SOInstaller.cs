@@ -8,11 +8,13 @@ namespace Installers
     public class SOInstaller : ScriptableObjectInstaller<SOInstaller>
     {
         [SerializeField] private GalleryData _galleryData;
+        [SerializeField] private ImageViewTextureData _savedTextureData;
 
 
         public override void InstallBindings()
         {
             BindGalleryData();
+            Container.BindInstance(_savedTextureData);
         }
 
         private void BindGalleryData() =>
