@@ -45,7 +45,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\Installers\MenuSceneInstaller.cs" />
-     <Compile Include="Assets\Scripts\Services\TopPanelInputService.cs" />
+     <Compile Include="Assets\Scripts\Services\InputService.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Scripts\States\DownloadAndOpenImagesState.cs" />
@@ -104,6 +104,7 @@
      <Compile Include="Assets\Scripts\Data\GalleryData.cs" />
      <Compile Include="Assets\Scripts\Installers\GallerySceneInstaller.cs" />
      <Compile Include="Assets\Scripts\States\SetImagesURLState.cs" />
+     <Compile Include="Assets\Scripts\Services\ScreenRotationService.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

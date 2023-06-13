@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Data;
 using Factories;
-using UnityEngine;
 using Zenject;
 
 namespace Services
@@ -12,29 +11,31 @@ namespace Services
         private readonly UIFactory _uiFactory;
         private readonly ImageViewTextureData _textureData;
         private readonly List<ICleanable> _cleanables;
-        private readonly TopPanelInputService _topPanelInputService;
+        private readonly InputService _inputService;
+        private readonly ScreenRotationService _screenRotationService;
 
         public ViewSceneService(UIFactory uiFactory, ImageViewTextureData textureData, List<ICleanable> cleanables,
-            TopPanelInputService topPanelInputService)
+            InputService inputService, ScreenRotationService screenRotationService)
         {
             _uiFactory = uiFactory;
             _textureData = textureData;
             _cleanables = cleanables;
-            _topPanelInputService = topPanelInputService;
+            _inputService = inputService;
+            _screenRotationService = screenRotationService;
         }
 
         public void Initialize()
         {
-            Screen.orientation = ScreenOrientation.Portrait;
-            
+            _screenRotationService.SetOrientation(ScreenRotationService.Orientation.Any);
+
             var hud = _uiFactory.CreateHUD();
 
-            _topPanelInputService.Init(hud);
-            
+            _inputService.Init(hud);
+
             var imageView = _uiFactory.CreateImageView(hud.ContentParent.transform);
             imageView.Init(_textureData.Texture);
         }
-        
+
 
         public void Dispose()
         {

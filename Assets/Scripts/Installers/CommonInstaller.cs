@@ -21,7 +21,8 @@ namespace Installers
             Container.BindInstance(_cellViewPrefab);
             Container.BindInstance(_imageViewPrefab);
             Container.BindInterfacesAndSelfTo<UIFactory>().AsSingle().NonLazy();
-            Container.BindInterfacesAndSelfTo<TopPanelInputService>().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<InputService>().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<ScreenRotationService>().AsSingle().NonLazy();
             
         }
 

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using StateMachine;
 using States;
-using UnityEngine;
 using Zenject;
 
 namespace Services
@@ -11,16 +10,18 @@ namespace Services
     {
         private readonly List<ICleanable> _cleanables;
         private MainStateMachine _stateMachine;
-        
-        public GallerySceneInitService(List<ICleanable> cleanables, MainStateMachine stateMachine)
+        private readonly ScreenRotationService _screenRotationService;
+
+        public GallerySceneInitService(List<ICleanable> cleanables, MainStateMachine stateMachine, ScreenRotationService screenRotationService)
         {
             _cleanables = cleanables;
             _stateMachine = stateMachine;
+            _screenRotationService = screenRotationService;
         }
-        
+
         public void Initialize()
         {
-            Screen.orientation = ScreenOrientation.Portrait;
+            _screenRotationService.SetOrientation(ScreenRotationService.Orientation.Portrait);
             _stateMachine.Enter<LoadUIState>();
         }
 

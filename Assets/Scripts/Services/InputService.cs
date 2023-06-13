@@ -2,10 +2,11 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Zenject;
 
 namespace Services
 {
-    public class TopPanelInputService : ICleanable
+    public class InputService : ICleanable, ITickable
     {
         private HUD _hud;
 
@@ -15,11 +16,19 @@ namespace Services
             _hud.ExitButton.onClick.AddListener(ExitCurrentScene);
         }
 
+        public void Tick()
+        {
+#if UNITY_ANDROID
+            if (Input.GetKey(KeyCode.Escape)) 
+                ExitCurrentScene();
+#endif
+        }
+
         public void Clean()
         {
             _hud.ExitButton.onClick.RemoveAllListeners();
         }
-        
+
         private void ExitCurrentScene()
         {
          

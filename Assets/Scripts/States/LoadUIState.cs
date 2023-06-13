@@ -11,12 +11,12 @@ namespace States
         private IStateMachine _stateMachine;
         private HUD _hud;
         private GalleryScrollView _gallery;
-        private TopPanelInputService _topPanelInputService;
+        private InputService _inputService;
 
-        public LoadUIState(UIFactory uiFactory, TopPanelInputService topPanelInputService)
+        public LoadUIState(UIFactory uiFactory, InputService inputService)
         {
             _uiFactory = uiFactory;
-            _topPanelInputService = topPanelInputService;
+            _inputService = inputService;
         }
 
         public void Init(IStateMachine stateMachine) => 
@@ -29,7 +29,7 @@ namespace States
         {
             _hud = _uiFactory.CreateHUD();
 
-            _topPanelInputService.Init(_hud);
+            _inputService.Init(_hud);
             
             _gallery = _uiFactory.CreateGallery(_hud.ContentParent.transform);
             Subscribe();

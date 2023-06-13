@@ -12,23 +12,25 @@ namespace Services
         private readonly List<ICleanable> _cleanables;
         private readonly Button _loadGallerySceneButton;
         private readonly UIFactory _uiFactory;
-        private readonly TopPanelInputService _topPanelInputService;
+        private readonly InputService _inputService;
+        private readonly ScreenRotationService _screenRotationService;
 
         public MenuSceneService(List<ICleanable> cleanables,Button loadGallerySceneButton, UIFactory uiFactory,
-            TopPanelInputService topPanelInputService)
+            InputService inputService, ScreenRotationService screenRotationService)
         {
             _cleanables = cleanables;
             _loadGallerySceneButton = loadGallerySceneButton;
             _uiFactory = uiFactory;
-            _topPanelInputService = topPanelInputService;
+            _inputService = inputService;
+            _screenRotationService = screenRotationService;
         }
 
         public void Initialize()
         {
-            Screen.orientation = ScreenOrientation.Portrait;
+            _screenRotationService.SetOrientation(ScreenRotationService.Orientation.Portrait);
             
             var hud = _uiFactory.CreateHUD();
-            _topPanelInputService.Init(hud);
+            _inputService.Init(hud);
             _loadGallerySceneButton.onClick.AddListener(Load);
         }
 
