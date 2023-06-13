@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47922aa6-e2ed-4f18-931d-cff6078cea48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/CommonInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/CommonInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/GallerySceneInitService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/GallerySceneInitService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/InputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/InputService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MenuSceneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MenuSceneService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/TopPanelInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/TopPanelInputService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/ViewSceneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/ViewSceneService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/SceneLoadService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/SceneLoadService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/States/LoadViewSceneState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadViewSceneState.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88d854ea2c91426ebc464f01cd71aa85157a00/4e/111ac12b/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ee2599e9648643c4aca5e05b96a4b4fe7400/7e/c1b7bbb3/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f943b0b325ed4b2da7ce9a10682503ee15200/a4/2d53991b/IState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9aad1b3a47484d63ba2b3985692d80e946a800/9a/181f8563/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -91,7 +89,7 @@
       <workItem from="1686517991758" duration="407000" />
       <workItem from="1686559182817" duration="1993000" />
       <workItem from="1686564254172" duration="6202000" />
-      <workItem from="1686658646439" duration="10794000" />
+      <workItem from="1686658646439" duration="11614000" />
     </task>
     <servers />
   </component>

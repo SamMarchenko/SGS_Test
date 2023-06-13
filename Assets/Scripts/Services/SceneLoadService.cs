@@ -9,6 +9,7 @@ namespace Services
     {
         private static SceneLoadService s_instance;
         private static bool s_shouldPlayOpenigAnimation = false;
+        private static bool s_isFree = true;
 
 
         [SerializeField] private Animator _animator;
@@ -18,19 +19,26 @@ namespace Services
         private AsyncOperation _loadingSceneOperation;
 
 
-        public static void SwitchToScene(string sceneName)
+        public static void TrySwitchToScene(string sceneName)
         {
+            if (!s_isFree)
+                return;
+            
             s_instance._animator.SetTrigger("sceneClosing");
 
             s_instance._loadingSceneOperation = SceneManager.LoadSceneAsync(sceneName);
+            s_isFree = false;
             s_instance._loadingSceneOperation.allowSceneActivation = false;
         }
         
-        public static void SwitchToScene(int sceneIndex)
+        public static void TrySwitchToScene(int sceneIndex)
         {
+            if (!s_isFree)
+                return;
             s_instance._animator.SetTrigger("sceneClosing");
 
             s_instance._loadingSceneOperation = SceneManager.LoadSceneAsync(sceneIndex);
+            s_isFree = false;
             s_instance._loadingSceneOperation.allowSceneActivation = false;
         }
 
@@ -57,6 +65,7 @@ namespace Services
         {
             s_shouldPlayOpenigAnimation = true;
             _loadingSceneOperation.allowSceneActivation = true;
+            s_isFree = true;
         }
     }
 }

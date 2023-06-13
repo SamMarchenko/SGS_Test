@@ -13,7 +13,7 @@ namespace States
         }
 
         public void Enter() => 
-            SceneLoadService.SwitchToScene("ViewScene");
+            SceneLoadService.TrySwitchToScene("ViewScene");
 
 
         public void Exit()

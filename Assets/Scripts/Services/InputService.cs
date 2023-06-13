@@ -35,7 +35,7 @@ namespace Services
             var activeScene = SceneManager.GetActiveScene().buildIndex;
 
             if (activeScene > 0)
-                SceneLoadService.SwitchToScene(activeScene - 1);
+                SceneLoadService.TrySwitchToScene(activeScene - 1);
             else
             {
 #if UNITY_EDITOR

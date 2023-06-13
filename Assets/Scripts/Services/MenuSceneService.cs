@@ -37,7 +37,7 @@ namespace Services
         private void Load()
         {
             _loadGallerySceneButton.gameObject.SetActive(false);
-            SceneLoadService.SwitchToScene("GalleryScene");
+            SceneLoadService.TrySwitchToScene("GalleryScene");
         }
 
         public void Dispose()
