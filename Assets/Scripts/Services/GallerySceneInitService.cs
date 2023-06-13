@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using StateMachine;
 using States;
+using UnityEngine;
 using Zenject;
 
 namespace Services
@@ -17,8 +18,11 @@ namespace Services
             _stateMachine = stateMachine;
         }
         
-        public void Initialize() => 
+        public void Initialize()
+        {
+            Screen.orientation = ScreenOrientation.Portrait;
             _stateMachine.Enter<LoadUIState>();
+        }
 
         public void Dispose()
         {

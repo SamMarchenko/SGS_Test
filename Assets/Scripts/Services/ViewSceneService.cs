@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Data;
 using Factories;
+using UnityEngine;
 using Zenject;
 
 namespace Services
@@ -24,6 +25,8 @@ namespace Services
 
         public void Initialize()
         {
+            Screen.orientation = ScreenOrientation.Portrait;
+            
             var hud = _uiFactory.CreateHUD();
 
             _topPanelInputService.Init(hud);

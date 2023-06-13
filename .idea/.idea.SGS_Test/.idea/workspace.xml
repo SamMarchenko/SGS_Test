@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47922aa6-e2ed-4f18-931d-cff6078cea48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadUIState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SGS_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SOInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SOInstaller.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GalleryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GalleryScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ViewScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ViewScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Factories/UIFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Factories/UIFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/CommonInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/CommonInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/GallerySceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/GallerySceneInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/SOInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/SOInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/GallerySceneInitService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/GallerySceneInitService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MenuSceneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MenuSceneService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/SceneLoadService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/SceneLoadService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/States/DownloadAndOpenImagesState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/DownloadAndOpenImagesState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/States/LoadGalleryState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/States/LoadGalleryState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadUIState.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/States/LoadViewSceneState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States/LoadViewSceneState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CellView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CellView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/TopPanelInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/TopPanelInputService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/ViewSceneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/ViewSceneService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +92,7 @@
       <workItem from="1686517991758" duration="407000" />
       <workItem from="1686559182817" duration="1993000" />
       <workItem from="1686564254172" duration="6202000" />
-      <workItem from="1686658646439" duration="8105000" />
+      <workItem from="1686658646439" duration="9129000" />
     </task>
     <servers />
   </component>
@@ -149,13 +134,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Services/GallerySceneInitService.cs</url>
-          <line>23</line>
+          <line>27</line>
           <properties documentPath="C:\SSDRepo\SGS_Test\Assets\Scripts\Services\GallerySceneInitService.cs" initialLine="24" containingFunctionPresentation="method 'Dispose'">
             <startOffsets>
-              <option value="640" />
+              <option value="736" />
             </startOffsets>
             <endOffsets>
-              <option value="641" />
+              <option value="737" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />

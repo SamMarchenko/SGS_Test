@@ -1,5 +1,6 @@
 ﻿using UI;
 using UnityEditor;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Services
@@ -32,8 +33,7 @@ namespace Services
 
                 EditorApplication.isPaused = true;
                 
-#else
-
+#elif UNITY_ANDROID
                 Application.Quit();
                 
 #endif
