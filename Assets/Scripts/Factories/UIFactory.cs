@@ -45,9 +45,7 @@ namespace Factories
             }
         }
         
-        public void Clean()
-        {
+        public void Clean() => 
             _imageCells.Clear();
-        }
     }
 }

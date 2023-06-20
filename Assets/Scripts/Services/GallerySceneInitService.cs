@@ -27,10 +27,8 @@ namespace Services
 
         public void Dispose()
         {
-            foreach (var cleanable in _cleanables)
-            {
+            foreach (var cleanable in _cleanables) 
                 cleanable.Clean();
-            }
         }
     }
 }

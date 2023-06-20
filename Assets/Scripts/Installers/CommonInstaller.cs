@@ -16,14 +16,22 @@ namespace Installers
         public override void InstallBindings()
         {
             BindHUD();
-            
+            BindUIElements();
+            Container.BindInterfacesAndSelfTo<UIFactory>().AsSingle().NonLazy();
+            BindServices();
+        }
+
+        private void BindServices()
+        {
+            Container.BindInterfacesAndSelfTo<InputService>().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<ScreenRotationService>().AsSingle().NonLazy();
+        }
+
+        private void BindUIElements()
+        {
             Container.BindInstance(_galleryPrefab);
             Container.BindInstance(_cellViewPrefab);
             Container.BindInstance(_imageViewPrefab);
-            Container.BindInterfacesAndSelfTo<UIFactory>().AsSingle().NonLazy();
-            Container.BindInterfacesAndSelfTo<InputService>().AsSingle().NonLazy();
-            Container.BindInterfacesAndSelfTo<ScreenRotationService>().AsSingle().NonLazy();
-            
         }
 
         private void BindHUD() => 

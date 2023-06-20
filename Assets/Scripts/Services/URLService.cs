@@ -8,10 +8,8 @@ namespace Services
     {
         private readonly GalleryData _data;
 
-        public URLService(GalleryData data)
-        {
+        public URLService(GalleryData data) => 
             _data = data;
-        }
 
         public Dictionary<CellView, string> SetURl(List<CellView> imageCells)
         {

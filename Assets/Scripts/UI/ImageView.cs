@@ -7,7 +7,6 @@ namespace UI
     {
         public RawImage Image;
 
-
         public void Init(Texture texture) =>
             Image.texture = texture;
     }
